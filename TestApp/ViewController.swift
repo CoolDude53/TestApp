@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     var count:Int = 1
     @IBAction func buttonPress(_ sender: Any) {
         label.text = "Button pressed: \(count) times!"
+        label.textColor = UIColor.red
         count += 1
     }
 
