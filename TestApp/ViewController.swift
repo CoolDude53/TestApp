@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    @IBOutlet var label: UILabel!
+    var count:Int = 1
+    @IBAction func buttonPress(_ sender: Any) {
+        label.text = "Button pressed: \(count) times!"
+        count += 1
+    }
 
 }
 
